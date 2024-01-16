@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* #0171f8
+ #ee626b */
+
+.container-auto {
+  max-width: 1068px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.container-fuild {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button,
+span,
+input,
+div,
+section {
+  font-family: 'poppins', sans-serif;
+}
+
+.active {
+  background: #1b7ffa;
+  padding: 8px 20px;
+  border-radius: 70px;
+}
+
+.hero-cards {
+  font-family: 'poppins', sans-serif;
+  left: 50%;
+  top: 110%;
+  transform: translateX(-50%);
+}
+
+.hero-card {
+  cursor: pointer;
+}
+
+.hero-card:hover .hero-card-img {
+  background-color: #ee626b;
+  transition: .5s;
+}
+
+.tag-name {
+  color: #ee626b;
+  font-weight: 700;
+  font-family: 'poppins', sans-serif;
+}
+
+.view-all-btn {
+  transition: 1s;
+}
+
+.view-all-btn:hover {
+  background-color: #1b7ffa;
+}
+
+.tr-game-card {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.tr-game-card:hover .tr-title {
+  color: #1b7ffa;
+  transition: 1s;
+}
+
+.tr-game-card:hover .tr-cart {
+  background-color: #1b7ffa;
+  transition: 1s;
+}
+
+.categories-img {
+  cursor: pointer;
+}
+
+.copywright:hover {
+  color: aquamarine;
+  text-decoration: underline;
+  transition: 1s;
+}

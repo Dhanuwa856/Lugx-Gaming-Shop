@@ -1,0 +1,12 @@
+.menulinks {
+  transition: 1s;
+  font-family: 'poppins', sans-serif;
+}
+
+.menulinks:hover {
+  background: #1b7ffa;
+  padding: 8px 20px;
+  border-radius: 70px;
+  transition: 1s;
+
+}

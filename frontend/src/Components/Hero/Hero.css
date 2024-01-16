@@ -1,0 +1,47 @@
+.hero-bg {
+  background-image: url(../Assets/banner-bg.jpg);
+  height: 120vh;
+  background-position: center;
+  background-size: cover;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.hero-content {
+  font-family: 'poppins', sans-serif;
+}
+
+.p-text {
+  line-height: 25px !important;
+
+}
+
+.hero-input {
+  background: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-radius: 70px;
+  justify-content: space-between;
+}
+
+.hero-input button {
+  background: #ee626b;
+  height: 50px;
+  border-radius: 70px;
+}
+
+.hero-input input {
+  width: 100%;
+  outline: 0;
+  color: #5a5757;
+}
+
+.hero-img img {
+  border-radius: 20px;
+}
+
+.hero-content-right {
+  font-family: 'poppins', sans-serif;
+}

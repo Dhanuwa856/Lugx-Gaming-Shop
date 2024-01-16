@@ -1,0 +1,19 @@
+.most-btn {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 95%;
+}
+
+.top_game_card:hover .most-btn {
+  background: #1b7ffa;
+  transition: 1s;
+}
+
+.top_game_card:hover .most-title {
+  color: #1b7ffa;
+  transition: 1s;
+}
+
+.most-img {
+  cursor: pointer;
+}
